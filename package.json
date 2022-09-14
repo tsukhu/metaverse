@@ -23,7 +23,8 @@
   "scripts": {
     "start": "react-app-rewired start",
     "build": "react-app-rewired build",
-    "test": "react-app-rewired test",
+    "test": "truffle test",
+    "deploy": "truffle migrate --reset",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
